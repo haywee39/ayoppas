@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Crushed&family=Fira+Sans+Extra+Condensed:wght@100&family=Inter:wght@100;800&family=League+Gothic&family=Splash&family=Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+  
+    <title>Welcome</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: grey;
+            font-family: Arial, sans-serif;
+        }
+
+        iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; /* Adjust this value to control the transparency */
+            pointer-events: none; /* Disable interaction with the iframe */
+        }
+
+        .company-logo{
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+        }
+
+        .container1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            line-height: 0.5;
+        }
+
+        .motion{
+            height: 350px;
+            width: 100%;
+            background: red;
+        }
+      
+        h1{ 
+            /* font-family: fantasy; */
+            font-size: 50px;
+            color: white;
+            text-shadow: red 1px 1px 1px;
+            /* letter-spacing: 5px; */
+        }
+
+        .slogan{
+            font-size: 23px;
+            color: white;
+            text-shadow: red 1px 1px 1px;
+        }
+      
+        h3{
+            font-family: 'Splash', cursive;
+            font-size: 20px;
+            color: white;
+            text-shadow: red 1px 1px 1px;
+        }
+
+        .construction{
+            font-size: 20px;
+        }
+       
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+    <iframe src="home.html"></iframe>
+
+    <div class="container1">
+  
+       <img class="company-logo" src="./logo/ppas.jpeg" alt="">
+        
+        <h1>P-PAS SYNERGY LIMITED</h1>
+        <h3 class="slogan">Reliable Power Provision,Maximum Safety Assured</h3>
+        <h3> 08025684832</h3>
+        
+        <div class="motion-vid">
+            <video class="motion" controls>
+                <source src="./video/ppas-vid.mp4" type="video/mp4">
+            </video>    
+        </div>
+       
+        <marquee behavior="scroll" direction=""><p class="construction"><b>This site is under construction</b></p></marquee> 
+
+       <p><b>Developer:  <a href="https://www.ayo-oke.com.ng" target="_blank">TagsTechie</a></b></p>
+        
+    </div>
+   
+</body>
+</html>
